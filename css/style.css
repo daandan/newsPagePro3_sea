@@ -1,0 +1,2206 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Microsoft Yahei","simsun","sans-serif","Hiragino Sans GB","STHeiti",Arial;
+	background-color: #fff;
+	font-size: 85%;
+	-wekit-text-size-adjust:100%;
+	position: relative;
+}
+h1,h2,h3,h4,h5,h6,em{
+	font-weight: normal;
+	font-size: normal;
+}
+table,td,tr{
+	border: none;
+	border-collapse: collapse;
+}
+ul,li,ol{
+	list-style: none;
+}
+img,fieldset{
+	border:medium none;
+	display: block;
+}
+img{
+	vertical-align: left;
+}
+a{
+	outline: none;
+}
+a{
+	cursor: pointer;
+	blr:expression(this.onFocus=this.blur());
+	outline: none;
+}
+a:link,a:visited{
+	color: #333;
+	text-decoration: none;
+}
+a:hover,a:active{
+	color: #c5022d;
+	text-decoration: none;
+}
+a:ani{
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.clear{
+	clear: both;
+	width: 1px;
+	overflow: hidden;
+	height: 0;
+}
+.clearfix{
+	*zoom:1;
+}
+.hidden{
+	display: none;
+}
+.pull-left,.f1{
+	float: left;
+}
+.pull-right,.fr{
+	float: right;
+
+}
+.fdn{
+	font-size: 0;
+	text-indent: -999em;
+	line-height: 0;
+}
+.oh{
+	overflow: hidden;
+}
+.text-overflow{
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow:ellipsis;
+	text-indent: ellipsis;
+}
+h1{
+	display: block;
+	font-size: 0;
+	line-height: 0px;
+	text-indent: -999em;
+}
+/*margin*/
+.mt5{
+	margin-top: 5px;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mt15{
+	margin-top: 15px;
+}
+.mt20{
+	margin-top: 20px;
+}
+.mt30{
+	margin-top: 30px;
+}
+.ml20{
+	margin-left: 20px;
+}
+.h886{
+	height: 1150px;
+	overflow: hidden;
+}
+.h313{
+	height: 313px;
+	overflow: hidden;
+}
+.h255{
+	height: 255px;
+	overflow: hidden;
+}
+/*	base*/
+.pc{
+	display: block;
+
+}
+.phone{
+	display: none!important;
+	height: 3.375rem;
+}
+.back .img-area{
+	position: relative;
+}
+.back .img-area p{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	background:url('http://moban.dayoo.com/templateRes/201710/17/50752/images/back.png') repeat 0 0;
+	text-align: center;
+}
+.back a{
+	color: #fff;
+	text-decoration: none;
+}
+.abst{
+	font-size: 14px;
+	line-height: 24px;
+	color: #666;
+}
+.abst a{
+	color: #c5022d;
+}
+.news-list li{
+	font-size: 16px;
+	line-height: 34px;
+	color: #333;
+	background:url('http://moban.dayoo.com/templateRes/201710/17/50752/images/li.jpg') no-repeat left center;
+	text-indent: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: "simsun";
+}
+.w272{
+	width: 272px;
+}
+.w369{
+	width: 369px;
+}
+.w450{
+	width: 490px;
+	overflow: hidden;
+}
+.w320{
+	width: 320px;
+	overflow: hidden;
+}
+.wrap{
+	background-color: #fff;
+}
+.header .w1000{
+	margin: 0px auto 0;
+
+}
+
+.wrap .header .header-w1000{
+	margin: 15px auto 0;
+}
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.layout{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+	position: relative;
+}
+.left,.f1{
+	float: left;
+}
+.right,.fr{
+	float: right;
+}
+.fn{
+	font-size: 0px;
+	line-height: 0px;
+	text-indent: -999px;
+}
+.to{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.red{
+	color: #D61518!important;
+}
+.icons,.tab-area,.news-list li,.lxyz .news-list li{
+	background-image: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/icons.png');
+	background-repeat: no-repeat;
+}
+.arrow{
+	position: absolute;
+	top: -13px;
+	right: 20px;
+	width: 32px;
+	height: 32px;
+	font-size: 30px;
+}
+.arrow span{
+	font-family: Simsun;
+	overflow: hidden;
+	display: block;
+	width: 32px;
+	height: 32px;
+	line-height: 26px;
+}
+.arrow span.arrow-o{
+	color: #ededed;
+}
+.arrow span.arrow-i{
+	color: #fff;
+	position: absolute;
+	top: 1px;
+	left: 0px;
+}
+.shadow{
+	border:1px solid #e5e5e5;
+	background-color: #fff;
+}
+a.btn{
+	display: inline-block;
+	width: 100%;
+	height: 34px;
+	font-size: 16px;
+	line-height: 34px;
+	text-align: center;
+}
+a.btn-default{
+	background-color: #ededed;
+	color: #666;
+	text-decoration: none;
+}
+a.btn-default:hover,a.btn-default:focus{
+	background-color: #0059b4;
+}
+a.btn-primary{
+	background-color: #100964;
+	color: #fff;
+	text-decoration: none;
+}
+a.btn-primary:hover,a.btn-primary:focus{
+	background-color: #0059b4;
+}
+.transition{
+	-webkit-transition:all 500ms cubic-bezier(0.34,1.21,0.4,1);
+	-moz-transition:all 500ms cubic-bezier(0.34,1.21,0.4,1);
+	transition: all 500ms cubic-bezier(0.34,1.21,0.4,1);
+	-moz-transform-origin:90% 0;
+	-ms-transform-origin:90% 0;
+	-o-transform-origin:90% 0;
+	-webkit-transform-origin:90% 0;
+	transform-origin: 90% 0;
+	-webkit-transform:translateY(0) scale(0);
+	-moz-transform:translateY(0) scale(0);
+	-ms-transform:translateY(0) scale(0);
+	-o-transform:translateY(0) scale(0);
+	transform: translateY(0) scale(0);
+	pointer-events: none;
+	opacity: 0;
+	display: none\9;
+}
+.box-active{
+	opacity: 1;
+	pointer-events: anto;
+	-webkit-transform:translateY(0) scale(1);
+	-moz-transform:translateY(0) scale(1);
+	-ms-transform:translateY(0) scale(1);
+	-o-transform:translateY(0) scale(1);
+	transform: translateY(0) scale(1);
+	display: block\9;
+}
+/*img-size*/
+.img-size .img-area,.img-size .img-area img{
+	width: 165px;
+	height: 93px;
+}
+.img-size .txt-area{
+	width: 309px;
+}
+.img-size .txt-area h2{
+	font-size: 18px;
+	margin-top: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+/* login */
+.top-nav{background-color: #fff;border-bottom: 1px solid #ededed;border-top: 2px solid #e50012;}
+.top-nav,.top-nav input{font-family: "Hiragino Sans GB","STHeiti","Microsoft YaHei","simsun","sans-serif",Arial;}
+.top-nav .pull-left{float: left;}
+.top-nav .pull-right{float: right;}
+.top-nav a:link,.top-nav a:visited{color:#333;text-decoration:none;}
+.top-nav a:hover,.top-nav a:active{color:#b40000;text-decoration:none;}
+.top-nav .msg-animate{-webkit-animation-duration: 1s;animation-duration: 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;-webkit-animation-name: shake;animation-name: shake;background: #FEE;border: 1px solid #ffb5b5;}
+.top-nav-inner{width: 1000px;height: 42px;margin: 0 auto;font-size: 14px;}
+.top-nav-links{width: 620px;overflow: hidden;}
+.top-nav-links,.top-nav-links li{list-style: none;}
+.top-nav-links li{float: left;}
+.top-nav-links li:first-child a:link,.top-nav-links li:first-child a:visited{color: #d61518;}
+.top-nav-links li a{display: block;padding: 0 10px;line-height: 42px;text-decoration:none;}
+.top-nav-links li a:link,.top-nav-links li a:visited{color:#333;}
+.top-nav-links li a:hover,.top-nav-links li a:active{background-color: #ededed;color:#d61518;}
+.top-nav-other{
+	width: 380px;
+}
+.top-nav-other>*{
+	float: right;
+	position: relative;
+	z-index: 999;
+}
+.top-nav-other-hd,.top-nav-other-hd2,.top-nav-other-hd3{
+	display: block;
+	padding: 0 15px;
+	line-height: 42px;
+}
+.top-nav-other-hd:hover,.top-nav-other-hd2:hover,.top-nav-other-hd3:hover{
+	background-color: #ededed;
+	color:#d61518;
+	text-decoration: none;
+}
+.top-nav-other-bd{
+	display: none;
+	position: absolute;
+	top:42px;
+	left:50%;
+	width: 160px;
+	margin-left: -101px;
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+}
+.top-nav-other-bd2,.top-nav-other-bd3,.top-nav-other-bd4,.top-nav-other-bd5{
+	display: none;
+	position: absolute;
+	top:44px;
+	left:50%;
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+	padding: 10px;
+}
+.top-nav-inner .top-nav-other-bd3 a{
+	padding: 0;
+	line-height: 0;
+	margin: 0 auto;
+}
+
+.top-nav-other-bd hr{
+	border-top: none;
+	border-bottom: 1px solid #ededed;
+	height: 0px;
+	margin: 0;
+	border-left: none;
+}
+.top-nav-arrow{
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	margin-left: -10px;
+	font-size: 20px;
+}
+.top-nav-arrow i{
+	display: block;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	font-family: simsun;
+	font-style: normal;
+	line-height: 20px;
+	color: #fff;
+	position: absolute;
+	top: 1px;
+	left: 0px;
+}
+.top-nav-arrow i:first-child{
+	color: #ededed;
+	top:0;
+}
+.top-nav-other-bd4 img,.top-nav-other-bd5 img{
+	width: 148px;
+	height: 148px;
+}
+.top-nav-contact-us .top-nav-other-hd i,.top-nav-other-hd2 i,.top-nav-other-hd3 i{
+	display: inline-block;
+	width: 8px;
+	height: 5px;
+	background: url('http://dayoo.com/public/c/2016/static/images/other-login-icon.png') no-repeat 0 -250px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.top-nav-contact-us .top-nav-other-bd,.top-nav-other-bd2,.top-nav-other-bd3,.top-nav-other-bd4{
+	width: 204px;
+	margin-left: -110px;
+}
+.top-nav-contact-us .top-nav-other-bd p,.top-nav-other-bd2 p,.top-nav-other-bd3 p,.top-nav-other-bd4 p{
+	padding: 10px 18px;
+	font-size: 14px;
+	line-height: 24px;
+}
+.top-nav-other-bd2{
+	width: 150px;
+	margin-left: -313px;
+	z-index: 99;
+}
+.top-nav-other-bd3{
+	width: 148px;
+	margin-left: -415px;
+	z-index: 99;
+}
+.top-nav-other-bd4{
+	width: 150px;
+	margin-left: -336px;
+	z-index: 99;
+}
+.top-nav-other-bd5{
+	width: 150px;
+	margin-left: -244px;
+	z-index: 99;
+}
+/*fun-box*/
+.fun-box {
+	float: right;
+	position: relative;
+	font-size: 14px;
+	line-height: 42px;
+	margin-left: 36px;
+}
+.fun-box .fun-btn,.h-link .fun-btn-2{
+	display: block;
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/d-arrow.png') no-repeat center right;
+	padding-right: 12px;
+}
+.fun-box .fun-bd{
+	width: 200px;position: absolute;
+	right: -18px;top:50px;
+	z-index: 199;
+}
+.fun-box .fun-bd p{
+	padding: 10px 20px;
+	border-bottom: 1px solid #ededed;
+	line-height: 22px;color: #666;
+}
+.fun-box .fun-bd img{
+	margin: 10px auto 0;
+}
+.fun-box .fun-bd span{
+	display: block;
+	text-align: center;
+}
+/*search*/
+.search{
+	float: right;
+	width: 311px;
+	height: 34px;
+	margin: 6px 0 0 45px;
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+}
+.search input{
+	border:none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	height: 34px;
+	float: left;
+
+}
+.search .search-word{
+	width: 276px;
+	background-color: transparent;
+	line-height: 34px;
+	text-indent: 3px;
+	color: #666;
+	font-family: "Microsoft Yahei";
+	outline: none;
+
+}
+.search .search-btn{
+	width: 28px;
+	height: 33px;
+	background:url('http://moban.dayoo.com/templateRes/201710/17/50752/images/search.png') no-repeat center top;
+	outline: none;
+}
+/*weather*/
+.weather{
+	margin-top: 15px;
+	margin-left: 12px;
+	position: relative;
+}
+.weather,.weather img{
+	width: 140px;
+	height: 19px;
+}
+.weatherxxx{
+	position: absolute;
+	width: 166px;
+	height: 26px;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	background-image: url(about:blank);
+}
+/*dayoo-nav*/
+.dayoo-nav .first{
+	background-color: #100964;
+}
+.dayoo-nav .bd{
+	height: 40px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.dayoo-nav ul li{
+	display: inline-block;
+	float: left;
+	line-height: 40px;
+	margin: 0 9px;
+}
+.dayoo-nav li a{
+	color: #fff;
+}
+.dayoo-nav ,.second li a{
+	color: #333;
+}
+/*img-change*/
+.top-img-change{
+	height: 275px;
+}
+.img-change .img-area,.img-for .img-area,.img-nav .img-area{
+	position: relative;
+}
+.img-change,.img-change ,.img-area,.img-change .img-area img{
+	/*width: 787px;*/
+	/*height: 442px;*/
+	overflow: hidden;
+}
+.img-change .img-area p{
+	font-size: 10px;
+	line-height: 50px;
+}
+.img-change .slick-arrow{
+	position: absolute;
+	bottom:0;
+	display: block;
+	width: 28px;
+	height: 47px;
+	background-color: transparent;
+	border: none;
+	font-size: 0;
+	text-indent: -999em;
+}
+.img-change .slick-arrow.slick-prev{
+	background-position: 0 0;
+	left:0px;
+}
+.img-change .slick-arrow.slick-next{
+	background-position: -31px 0;
+	right: 0px;}
+/*slick.css*/
+.slick-slider{
+	position:relative;
+	display:block;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	-webkit-touch-callout:none;
+	-khtml-user-select:none;
+	-ms-touch-action:pan-y;
+	touch-action:pan-y;
+	-webkit-tap-highlight-color:transparent;
+}
+.slick-list{
+	position:relative;
+	display:block;
+	overflow:hidden;
+}
+.slick-list:focus{
+	outline:0;
+}
+.slick-list.dragging{
+	cursor:pointer;
+	cursor:hand;
+}
+.slick-slider .slick-list,.slick-slider .slick-track{
+	-webkit-transform:translate3d(0,0,0);
+	-moz-transform:translate3d(0,0,0);
+	-ms-transform:translate3d(0,0,0);
+	-o-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0);
+}
+.slick-track{
+	position:relative;
+	top:0;
+	left:0;
+	display:block;
+}
+.slick-track:after,.slick-track:before{
+	display:table;
+	content:'';
+}
+.slick-track:after{
+	clear:both;
+}
+.slick-loading .slick-track{
+	visibility:hidden;
+}
+.slick-slide{
+	display:none;
+	float:left;
+	height:100%;
+	min-height:1px;
+}
+[dir=rtl] .slick-slide{
+	float:right;
+}
+.slick-slide.slick-loading img{
+	display:none;
+}
+.slick-slide.dragging img{
+	pointer-events:none;
+}
+.slick-initialized .slick-slide{
+	display:block;
+}
+.slick-loading .slick-slide{
+	visibility:hidden;
+}
+.slick-vertical .slick-slide{
+	display:block;height:auto;
+	border:1px solid transparent;
+}
+.slick-arrow.slick-hidden{
+	display:none;
+}
+
+.slick-slider .slick-arrow{
+	cursor: pointer;
+	background: none;
+	border: none;
+	outline: none;
+	z-index: 1001;
+	background-image: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/arrows.png');
+	background-repeat: no-repeat;
+}
+
+/*img-for*/
+.img-for .img-area,.img-for .img-area img{
+	width: 490px;
+
+	height: 275px;
+	margin: 0 auto;
+}
+.img-for .slick-arrow{
+	position: absolute;
+	top:50%;
+	display: block;
+	width: 28px;
+	height: 47px;
+	background-color: transparent;
+	border: none;
+	font-size: 0;
+	text-indent: -999em;
+	margin-top: -24px;
+}
+.img-for .slick-arrow.slick-prev{
+	background-position: 0 0;
+	left:0px;
+}
+.img-for .slick-arrow.slick-next{
+	background-position: -28px 0;
+	right: 0px;
+}
+.img-for p{
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+}
+/*img-nav*/
+.img-nav{
+	margin: 10px auto 0;
+	width: 500px;
+}
+.img-nav .img-area img{
+	width: 100%;
+	height: 86px;
+}
+.img-nav .img-area a{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+.slider-nav .slider-slide{
+	margin: 0 0 0 8px;
+}
+.slider-nav .slick-slide:first-child{
+	margin: 0 0 0 4px;
+}
+.slider-nav .back{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/back.png') repeat 0 0;
+	text-align: center;
+}
+.slider-nav .slick-current .back{
+	display: none;
+}
+/*top-news-box*/
+.top-news{
+	margin-top: 5px;
+}
+.top-news li{
+	font-size: 20px;
+	line-height: 50px;
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/li.jpg') no-repeat left center;
+	text-indent: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+/*col*/
+.col .hd{
+	width: 100%;
+	border-bottom: 1px solid #e8e8e8;
+	height: 41px
+}
+.col .hd h2{
+	position: relative;
+	top: 1px;
+	width: 100px;
+	border-bottom: 1px solid #100964;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	padding: 0;
+	font-weight: bold;
+}
+.col .hd h2 a{
+	color: #100964;
+}
+.col .news-list li{
+	line-height: 32px;
+}
+/*jptj*/
+.jptj .hd{
+	position: relative;
+}
+.jptj .hdd{
+	position: absolute;
+	left: 234px;
+	top: 12px;
+}
+.jptj .hdd span{
+	display: inline-block;
+	font-size: 14px;
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/string2.jpg') no-repeat center left;
+	padding: 0 10px 0 16px;
+}
+.jptj .hdd span:first-child{
+	background: none;
+}
+.jptj .hdd a:hover,.jptj .hdd a:active{
+	color:#1e7dce;
+}
+.jptj .img-top{
+	width: 300px;
+	margin: 26px auto 0;
+}
+.jptj .img-top img{
+	width: 300px;
+	height: 169px;
+}
+.jptj .img-top h2{
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+	overflow: hidden;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+}
+.jptj .img-top .abst{
+	max-height: 48px;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 26px;
+}
+.jptj .img-box{
+	overflow: hidden;
+	margin: 20px auto 0;
+}
+.jptj .img-box .img-area,.jptj .img-box .img-area img{
+	float: left;
+	width: 157px;
+	height: 88px;
+}
+.jptj .img-box .txt-area{
+	float: right;
+	width: 144px;
+	margin-top: 25px;
+	font-size: 16px;
+	max-height: 42px;
+	overflow: hidden;
+}
+
+.top-news-list .more{
+	display: block;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background: #f2f2f2;
+	color: #999;
+	margin-top: 10px;
+}
+/*news-img-change*/
+.news-img-change{
+	width: 1020px;
+	height: 180px;
+	overflow: hidden;
+	*width: 1010px;
+}
+.news-img-change .slick-slide{
+	margin-right: 20px;
+}
+.news-img-change .slick-arrow{
+	position: absolute;
+	top: 50%;
+	display: block;
+	width: 28px;
+	height: 47px;
+	background-color: transparent;
+	border: none;
+	font-size: 0;
+	text-indent: -999em;
+	margin-top: -24px;
+}
+.news-img-change .slick-arrow.slick-prev{
+	background-position: 0 -47px;
+	left: 0px;
+}
+.news-img-change .slick-arrow.slick-next{
+	background-position: -28px -47px;
+	right: 20px;
+	*right: 15px;
+}
+.news-img-change .img-area,.news-img-change .img-area img{
+	width: 320px;
+	height: 180px;
+}
+.news-img-change .img-area{
+	position: relative;
+}
+.news-img-change .img-area span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/img-arrow.jpg') no-repeat center top;
+}
+.news-img-change .img-area p{
+	height: 30px;
+	line-height: 30px;
+}
+/* col-img-big */
+.col-2-img{
+	width: 320px;
+}
+.col-2-img .img-area,.col-2-img .img-area img{
+	width:300px;
+	height: 168px;
+	margin: 0 auto;
+}
+.col-2-img .img-area p{
+	position: static;
+	height: 34px;
+	line-height: 34px;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	color: #fff;
+	padding: 0 20px;
+	width: 260px;
+}
+.col-2-img .img-area p{
+	background: #7f7f7f;
+}
+.col-2-img .news-list{
+	margin-top: 50px;
+}
+/*col-tab*/
+.col-tab .hd div{
+	float: left;
+}
+.col-tab .hd h2{
+	border: none;
+
+}
+.col-tab .hd h2 a{
+	color: #333;
+}
+.col-tab .hd .current h2{
+	border-bottom: 1px solid #100964;
+}
+.col-tab .hd .current h2 a{
+	color: #100964;
+}
+/*list-3*/
+.list-3 .news-list{
+	padding: 10px 0;
+	border-top:1px solid #efefef;
+
+}
+.list-3 .news-list:first-child{
+	padding: 0 0 14px 0;
+	border: none;
+}
+/*col-tab-img*/
+.col-tab-img .img-area img{
+	float: left;
+	width: 110px;
+	height: 80px;
+}
+.col-tab-img .img-area p{
+	float: right;
+	display: block;
+	width: 150px;
+	height: 76px;
+	margin-top: 5px;
+	font-size: 16px;
+	line-height: 24px;
+	overflow: hidden;
+}
+/*zwwq*/
+.zwwq li{
+	float: left;
+	width: 75px;
+	height: 38px;
+	overflow: hidden;
+	background-color: #efefef;
+	padding: 9px 6px;
+	text-align: center;
+	margin: 5px 0 0 5px;
+	font-size: 14px;
+}
+.zwwq li a{
+	color: #999;
+}
+.zwwq li:hover,.zwwq li.current{
+	background-color: #cb1625;
+	color: #fff;
+}
+.zwwq li:hover a,.zwwq li.current a{
+	color: #fff;
+}
+.zwwq{
+	float: left;
+	margin-left: -5px;
+}
+/*xwzyhz*/
+.xwzyhz .hd h2{
+	width: 120px;
+}
+/*footer*/
+.subfoot-wrap{
+	background-color: #ededed;
+	font-family: "Microsoft Yahei";
+}
+.wrap .subfoot-wrap-mt{
+	margin-top: 30px;
+}
+.wrap .subfoot-wrap-mt .bd{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+.subfoot-wrap .tab-menu-footer{
+	height: 44px;
+	border-bottom: 1px solid #fff;
+}
+.subfoot-wrap .tab-menu-footer li{
+	display: block;
+	float: left;
+	width: auto;
+}
+.subfoot-wrap .tab-menu-footer a{
+	display: block;
+	 float: left;
+	font-size: 18px;
+	line-height: 44px;
+	color: #222;
+	margin: 0 10px;
+	padding:  0 10px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.subfoot-wrap .tab-menu-footer a.selected{
+	height: 43px;
+	border-bottom: 2px solid #1d2855;
+}
+.subfoot-wrap .tag{
+	margin-top: 10px;
+	color: #444;
+}
+.subfoot-wrap .tag a{
+	display: inline-block; 
+	color: #444;
+	margin: 5px 8px;
+}
+.subfoot-wrap .tag .tab-box-a{
+	clear: both;
+}
+.subfoot-wrap .tag-menu-img img{
+	margin: 23px 8px 0 8px;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+
+}
+/* gov-layout */
+.gov-layout .hd{
+	height: auto;
+}
+.gov-layout .gov-btn li{
+	float: left;
+	width: 48px;
+	margin-left: 22px;
+	text-align: center;
+}
+.gov-layout .gov-btn i{
+	display: block;
+	height: 48px;
+	width: 48px;
+	background-image: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/gov-btn.png');
+	background-repeat: no-repeat;
+}
+.gov-layout .gov-btn a{
+	display: block;
+	color: #2c133e;
+	line-height: 42px;
+}
+.gov-layout .gov-btn .btn-1 i{
+	background-position: 0 0;
+}
+.gov-layout .gov-btn .btn-2 i{
+	background-position: 0 -64px;
+}
+.gov-layout .gov-btn .btn-3 i{
+	background-position: 0 -128px;
+}
+.gov-layout .gov-btn .btn-4 i{
+	background-position: 0 -192px;
+}
+.gov-layout .bd{
+	width: 300px;background-color: #f6f6f6;padding: 10px;overflow: hidden;
+}
+.gov-layout .gov-list{
+
+	margin-top: 20px;}
+.gov-layout .gov-list .hdd{
+	border-bottom: 1px solid #e9e9e9;
+	margin-bottom: 6px;
+}
+.gov-layout .gov-list .hdd h3{
+	width: 84px;height: 22px;
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/gov-h2-bg.png') no-repeat center top;
+	color: #fff;
+	font-size: 12px;
+	line-height: 22px;
+	text-indent: 10px
+}
+.gov-layout .bdd{
+	float: left;
+	margin-left: -4px;
+}
+.gov-layout .bdd li{
+	float: left;
+	width: 70px;
+	height: 24px;
+	margin: 4px 0 0 4px;
+	border: 1px solid #e9e9e9;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+	background-color: #fff;}
+.gov-layout .bdd a{
+	color: #666;
+}
+/*sprites*/
+.header-m a,#bdcs-search-form-input-notspan,.list-more-btn i,.side-nav .hd{
+	background-image: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/sprites.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: 24px auto;
+	background-size: 24px auto;
+}
+/*header-m*/
+.header-m{
+	height: 47px;
+	border-top: 2px solid #cb1625;
+	border-bottom: 1px solid #e8e8e8;
+	position: relative;
+}
+.header-m>h1,.header-m>a,.header-m #bdcs-search-form-input-notspan{
+	position: absolute;
+	display: block;
+}
+.header-m h1{
+	top:7px;
+	left:50%;
+	margin-left: -40px;
+}
+.header-m h1,.header-m h1 img{
+	width: 80px;
+	height: 34px;}
+.header-m a,.header-m #bdcs-search-form-input-notspan{
+	width: 24px;
+	height: 24px;
+	top:11px;
+}
+.header-m a.menu-btn{
+	right:10px;
+	background-position: 0 -24px;
+}
+.header-m a.menu-btn.menu-act{
+	background-position: 0 -216px;
+}
+.header-m #bdcs-search-form-input-notspan{
+	width: 24px !important;
+	left:10px;background-position: 0 0;
+	font-size: 0;margin-left: 0 !important;
+}
+.header-m #bdcs-search-form-input-span{
+	width: 44px !important;
+	height: 35px !important;
+	background: none;border: none;
+}
+/*nav*/
+.nav-more-btn{
+	background-position: center -52px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+.nav-more-btn.open{
+	transform: rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	background-position: center -58px;
+}
+.nav-more-btn{
+	background-image: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/sprites.png');
+	background-repeat: no-repeat;
+	-webkit-background-size:24px auto;
+	background-size: 24px auto;
+}
+/*footer*/
+.phone-footer{
+	font-size: 10px;
+	text-align: center;
+	padding: 15px 0;
+	background-color: #100964;
+	color: #fff;
+}
+.h886 li:first-child{
+	font-weight:bold;
+}
+.gjsgg .hd h2{
+	width: 86px;
+	font-size: 17px;
+}
+
+/* 2017.05.24 new-home */
+.top-tit{
+	width: 1000px;
+	height: 54px;
+	overflow: hidden;
+	margin: 30px auto 10px;
+	text-align: center;
+}
+.top-tit h2{
+	font-size: 44px;
+	font-weight: bold;
+}
+.top-tit h2 a{
+	color: #4774c8;
+}
+/*#marquee2*/
+#y10t{
+	height:1107px;
+	overflow:hidden;
+}
+.y10t{
+	width: 320px;
+}
+.y10t #goU{
+	background-position: 0 -100px;
+}
+.y10t #goD{
+	display: block;
+	margin-top: 18px;
+}
+.y10t #goU:hover{
+	background-position: 0 -200px;
+}
+.y10t #goD:hover{
+	background-position: 0 -300px;
+}
+.y10t ul{
+	width: 300px;
+	margin: 0 auto;
+}
+.y10t ul li{
+	padding-top: 30px;
+}
+.y10t ul li:first-child{
+	margin-top: 0;
+}
+.y10t ul img{
+	width: 300px;height: 168px;
+}
+.y10t ul p{
+	width: 300px;
+	height: 29px;
+	background: #7f7f7f;
+	font-size: 14px;
+	line-height: 29px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.y10t ul p a{
+	color: #fff;
+}
+.picList{
+	margin: 0 auto!important;
+}
+
+/*top-hot*/
+.top-hot .hd{
+	position: relative;
+	border-bottom: 1px solid #e8e8e8;
+}
+.top-hot .hd h2{
+	width: 120px;
+	height: 39px;
+	border-bottom: 1px solid #100964;
+}
+.top-hot .hd h2 a{
+	position: absolute;
+	display: block;
+	top: 8px;
+	left: 15px;
+	font-size: 0;
+	width: 66px;
+	height: 22px;
+	background-image: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/top-3.png');
+	background-repeat: no-repeat;
+}
+.top-hot .top-arrows{
+	display: block;
+	width: 320px;
+	height: 90px;
+	background-image: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/top-hd.png');
+	background-repeat: no-repeat;
+}
+/*y10tt*/
+.y10tt{
+	width: 369px;
+}
+.y10tt .hd h2 a{
+	background-position: 0 -40px;
+}
+.y10y .hd h2 a{
+	background-position: 0 -80px;
+}
+.y10tt .top-area{
+	overflow: hidden;
+	padding: 20px 0;
+	border-bottom: 1px solid #f6f6f6;
+}
+.y10tt .top-area .top{
+	display: block;
+	float: left;
+	width: 37px;
+	height: 19px;
+	font-size: 12px;
+	line-height: 16px;
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/top.png') no-repeat center top;
+	text-align: center;
+	margin-top: 6px;
+	color: #fff;
+	font-weight: bold;
+	font-family: simsun;
+}
+.y10tt .top-area .num-pop{
+	float: right;
+	overflow: hidden;
+}
+.y10tt .num-pop p{
+	font-size: 14px;
+	line-height: 26px;
+	margin-top:10px;
+	font-family: "Microsoft Yahei";
+}
+.y10tt .top-area h3,.y10tt .top-area2 h3{
+	display: block;
+	clear: both;
+}
+.y10tt .num-pop i{
+	display: block;
+	float: left;
+	font-size: 30px;
+	color: #4774c8;
+	padding-right: 5px;
+	font-family: 'simsun';
+}
+.y10tt .top-area h3,.y10tt .top-area2 h3{
+	font-family: 'simsun';
+	font-size: 19px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-top: 5px;
+}
+.y10tt .top-area .abst{
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 10px;
+	max-height: 78px;
+	overflow: hidden;
+}
+.y10tt .top-area .wy{
+	text-align: right;
+	font-size: 14px;
+	text-decoration: underline;
+	color: #666;
+	float: right;
+}
+.y10tt .top-area2{
+	overflow: hidden;
+	padding: 14px 0;
+	border-bottom: 1px solid #ededed;
+}
+.y10tt .top-area2 span{
+	float: left;
+	width: 22px;
+	height: 18px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 18px;
+	color: #100964;
+	background: #efefef;
+	font-family: 'simsun';
+}
+.y10tt .top-area2 h3{
+	width: 340px;
+	float: left;
+	clear: inherit;
+	padding-top: 0;
+	margin-left: 5px;
+	overflow: hidden;
+}
+.y10tt .top-area2 .abst{
+	clear: both;
+	padding-top: 5px;
+	max-height: 53px;
+	overflow: hidden;
+}
+/* y10y */
+#y10y{
+	height: 1146px;
+	overflow: hidden;
+}
+.y10y{
+	width: 272px;
+	float: right;
+}
+.top-hot .top-arrows2{
+	display: block;
+	width: 272px;
+	height: 67px;
+	background-image: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/top-hd.png');
+	background-repeat: no-repeat;
+}
+.y10y #goU2{
+	background-position: 0 -400px;
+}
+.y10y #goD2{
+	display: block;
+	margin-top: 27px;
+	background-position: 0 -500px;
+}
+.y10y #goU2:hover{
+	background-position: 0 -600px;
+}
+.y10y #goD2:hover{
+	background-position: 0 -700px;
+}
+.y10y .img-area{
+	width: 252px;
+	margin: 0 auto;
+}
+.y10y ul{
+	width: 272px;
+	margin: 0 auto;
+}
+.y10y ul li{
+	padding-top: 15px;
+}
+.y10y .img-area{
+	position: relative;
+}
+.y10y ul .img{
+	width: 252px;
+	height: 141px;
+}
+.y10y ul .mask{
+	position: absolute;
+	top:0;
+	left:0;
+	background: #000;
+	opacity: 0.5;
+	width: 100%;
+	height: 141px;
+}
+.y10y ul p{
+	width: 232px;
+	height: 29px;
+	padding: 0 10px;
+	background: #7f7f7f;
+	font-size: 14px;
+	line-height: 29px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #fff;
+}
+.y10y ul p a{
+	color: #fff;
+}
+.y10y ul .mask img{
+	margin: 48px auto 0;
+}
+.y10y .abst{
+	font-size: 12px;
+	line-height: 22px;
+	max-height: 44px;
+	overflow: hidden;
+	margin-top: 5px;
+	min-height: 44px;
+}
+.gz24xs2017 .hd h2{
+	border-bottom: 1px solid #100964;
+}
+.gz24xs2017 .img-area{
+	margin: 10px auto 0;
+}
+.gz24xs2017 img{
+	width: 252px;
+	height: 141px;
+	margin: 0 auto;
+}
+.gz24xs2017 .img-area p{
+	position: static;
+	height: 34px;
+	line-height: 34px;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	color: #fff;
+	padding: 0 20px;
+	width: 212px;
+	text-align: center;
+	margin: 0 auto;
+}
+.gz24xs2017 .img-area p{
+	background: #7f7f7f;
+}
+.gz24xs2017 .img-area p a{
+	color: #fff;
+}
+.jkjd .news-list li{
+	overflow: hidden;
+	text-overflow: initial;
+	white-space: initial;
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/li.jpg') no-repeat left 15px;
+}
+
+.gg2017{
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/2017gg4.jpg') no-repeat center 45px;}
+.gg2017 .header-w1000,.gg2017 .dayoo-nav{
+	width: 1000px;
+	margin: 0px auto 0;
+	background: #fff;
+	padding: 10px
+}
+.gg2017 .header .header-w1000{
+	margin-top: 96px;
+}
+.gg2017 .gg2017-phone{
+	display: none;
+}
+
+.wrap{
+	position: relative;
+}
+.art-bg{
+	width:100%;
+	height: 270px;
+	position: absolute;
+	top:45px;
+	display: block;
+	z-index: 0;
+	cursor: pointer;
+}
+.header{
+	z-index: 9999;
+	position: relative;
+}
+.dayoo-nav{
+	position: relative;
+	z-index: 3
+}
+.header-w1000{
+	position: relative;
+	z-index: 3
+}
+/* 2017.07.07 */
+.fygg2017 li{
+	float: left;
+	width: 166px;
+	max-height: 80x;
+	overflow: hidden;
+	background: none;
+	background-color: #efefef;
+	padding: 0px 6px;
+	text-align: center;
+	margin: 5px 0 0 5px;
+	font-size: 14px;
+	white-space: normal;
+}
+.col-tab-3-img .hd h2{
+	width: 86px;
+}
+/* 2017.10.17 */
+.s9d .dayoo-nav{
+	width: 1000px;
+	margin: 20px auto 0;
+}
+.s9d .s9dbox{
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/2017sjd1.jpg') no-repeat center top;
+	height: 550px;
+	overflow: hidden;
+}
+.s9d .s9dbox .sjd2017-phone{
+	margin: 0 auto;
+	width: 1076px;
+}
+.s9d .s9dbox .w1000{
+	background: #ffead2;
+}
+.s9d .top-n-tit-phone{
+	display: none;
+}
+.s9d .sjd-img-change{
+	float: left;
+}
+.s9d .sjd-img-change,.s9d .sjd-img-change,.s9d .sjd-img-change, .s9d .sjd-img-change img{
+	width: 640px;
+	height: 359px;
+}
+.s9d .sjd-img-change p{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: left;
+	text-indent: 15px;
+}
+.s9d .s9dbox .slick-dots{
+	position: absolute;
+	bottom: 16px;
+	right: 50%;
+	margin-right: -45px;
+}
+.s9d .s9dbox .slick-dots li{
+	float: left;
+	margin-left: 16px;
+}
+.s9d .s9dbox .slick-dots button{
+	background: none;
+	border: none;
+	width: 14px;
+	height: 14px;
+	font-size: 0;
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/sjd-dot-1.png') no-repeat center top;
+}
+.s9d .s9dbox .slick-dots .slick-active button{
+	background: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/sjd-dot.png') no-repeat center top;
+}
+.s9d .sjd-news-list{
+	float: right;
+	width: 360px;
+}
+.s9d .sjd-news-list li{
+	height: 50px;
+	line-height: 30px;
+	padding:19px 19px;
+	border-top: 1px solid #e28d81;
+	font-size: 20px;
+}
+.s9d .sjd-news-list li p{
+	height: 57px;
+	max-height: 57px;
+	overflow: hidden;
+}
+.s9d .sjd-news-list li a{
+	color: #ff0000;
+	height: 50px;
+	max-height: 50px;
+	overflow: hidden;
+}
+.s9d .sjd-news-list li:hover{
+	display: block;
+	width: auto;
+	background: #ffd58c;
+}
+.s9d .h2-a-phone{
+	display: none;
+}
+.s9d .top-n-tit{
+	width: 980px;
+	margin: 0 auto;
+}
+.s9d .top-n-tit p{
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0;
+}
+.s9d .top-n-tit p a{
+	color: rgb(255, 0, 0);
+}
+.s9d .top-n-tit img{
+	width: 100%;
+}
+/* operation-column-left */
+.operation-column{
+	margin-top: 15px;
+}
+.operation-column-left{
+	width: 319px;
+	float: left;
+}
+
+.operation-column .block .hd{
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #e8e8e8;
+}
+.operation-column .block .hd h2{
+	position: relative;
+	top: 1px;
+	width: 120px;
+	font-size: 17px;
+	border-bottom: 1px solid #100964;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.operation-column .block .hd h2 a{
+	color: #100964;
+}
+.operation-column .block .img-area{
+	width: 300px;
+	margin: 25px auto 0;
+}
+.operation-column .block .img-area img{
+	width: 300px;
+	height: 168px;
+}
+.operation-column .block .img-area p{
+	width: 100%;
+	height: 29px;
+	font-size: 14px;
+	line-height: 29px;
+	text-align: center;
+	background: #7f7f7f;
+}
+.operation-column .block .img-area p a{
+	color: #fff;
+}
+.operation-column .block .news-list{
+	margin-top: 25px;
+}
+/* operation-column-center */
+.operation-column-center{
+	width: 369px;
+	float: left;
+	margin-left: 20px;
+}
+.operation-column-center .block{
+	margin-top: 17px;
+}
+.operation-column-center .block:first-child{
+	margin-top: 0;
+}
+.operation-column-center .block .news-list{
+	margin-top: 17px;
+}
+/* operation-column-right */
+.operation-column-right{
+	width: 272px;
+	float: right;
+}
+.operation-column-right .block .img-area{
+	width: 252px;
+	margin: 25px auto 0;
+}
+.operation-column-right .block .img-area img{
+	width: 252px;
+	height: 141px;
+}
+.operation-column-right .block .news-list{
+	width: 252px;
+	margin: 17px auto 0;
+}
+.operation-column-right .block{
+	margin-top: 32px;
+}
+.operation-column-right .block:first-child{
+	margin-top: 0;
+}
+.operation-column-right .block:first-child +.block +.block .hd h2{
+	padding: 0 5px 10px 5px;
+}
+@media screen and (max-width:768px){
+	.art-bg{
+		display: none
+	}
+	.phone-footer{
+		display: none!important;
+	}
+	img{
+		display: initial;
+	}
+	.phone{
+		display: block!important;
+	}
+	.pc{
+		display: none!important;
+	}
+	.wrap{
+		width: auto;
+	}
+	.w1000,.dayoo-nav .bd,.w369{
+		width: 100%;
+	}
+	.col-2-img .img-area p{
+		width: 90%;
+		padding: 5%;
+		height: 10px;
+		line-height: 10px;
+	}
+	/* header */
+	.top-fixed,.header-w1000,.ad-area-wrap{
+		display: none;
+	}
+	.dayoo-nav .bd{
+		height: auto;
+	}
+	.dayoo-nav .phone-nav ul{
+		overflow: hidden;
+		padding: 2px;
+	}
+	.dayoo-nav .phone-nav li{
+		float: left;
+		width: 24%;
+		height: 32px;
+		margin: 0 0.33%;
+		font-size: 16px;
+		line-height: 32px;
+		text-align: center;
+		margin-left: 0;
+	}
+	.dayoo-nav .phone-nav li a{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	/* second */
+	.second{
+		width: 100%;
+		overflow-y: scroll;
+	}
+	.second .bd{
+		width: 1300px;
+	}
+	.second .bd li{
+		font-size: 16px;
+	}
+
+	.mt20{
+		margin-top: 10px;
+	}
+	/* .layout */
+	.layout{
+		width: auto;
+		margin: 10px;
+	}
+	.w490,.img-for,.w450{
+		width: 100%;
+	}
+	.img-for .img-area img{
+		width: 100%;
+		height: 200px;
+	}
+	.img-for .img-area{
+		height: 200px;
+	}
+	.img-nav .img-area img{
+		height: auto;
+	}
+	.slider-nav .slick-slide,.slider-nav .slick-slide:first-child{
+		margin: 0 8px;
+	}
+	.img-nav{
+		width: 100%;
+	}
+	.img-nav .img-area img{
+		height: 60px;
+	}
+	.top-img-change{
+		height: auto;
+	}
+	/* .top-news */
+	.top-news{
+		height: auto;
+	}
+	/* jptj */
+	.col-tab-img .img-area{
+		display: -webkit-box;
+		display: -moz-box;
+		display: box;
+	}
+	.col-tab-img .img-area p{
+		margin-top: 0;
+		-webkit-box-flex: 1;
+		-moz-box-flex: 1;
+		box-flex: 1;
+		margin-left: 10px;
+	}
+	/* .news-img-change */
+	.news-img-change{
+		width: 100%;
+	}
+	.news-img-change .img-area, .news-img-change .img-area img{
+		width: 100%;
+		height: auto;
+	}
+	.news-img-change .slick-slide{
+		margin: 0 10px;
+	}
+	.news-img-change .slick-arrow.slick-prev{
+		left: 10px;
+	}
+	.news-img-change .slick-arrow.slick-next{
+		right: 10px;
+	}
+	.news-img-change{
+		height: auto;
+	}
+	.col .hd h2{
+		font-size: 16px;
+		width: 68px;
+	}
+	.col .hd .gz24h{
+		width: 92px;
+	}
+	.ml20{
+		margin-left: 0;
+	}
+	.col-tab-img .img-area p{
+		font-size: 14px;
+	}
+	.col-2-img .img-area{
+		width: 49%;
+		float: left;
+	}
+	.col-2-img .img-area img{
+		width: 100%;
+		height: 100%;
+	}
+	.col-2-img .img-area:nth-child(2){
+		float: right;
+	}
+	.col-2-img,.w320{
+		width: 100%;
+	}
+	.col-tab-img .img-area p,.col-tab-img .img-area img{
+		float: none;
+	}
+	.zwwq li{
+		width: 26%;
+		margin: 2.5% 0 0 3%;
+	}
+	/* gov-layout */
+	.gov-layout .hd img{
+		margin: 0 auto;
+		display: block;
+	}
+	.gov-layout .bd,.w660,.subfoot-wrap .bd{
+		width: 100%;
+	}
+	.col.xwzyhz h2{
+		width: 103px;
+	}
+	/* .subfoot-wrap .tab-menu-footer li */
+	#menu{
+		display: none;
+	}
+	.h886,.h313{
+		height: auto;
+	}
+	.top-news-box .top-news:first-child .abst{
+		max-height: 100%;
+	}
+	.top-tit{
+		width: 100%;
+		height: auto;
+	}
+	.top-tit h2{
+		font-size: 32px;
+	}
+	.img-for .img-area, .img-for .img-area img{
+		width: 100%;
+		height: auto;
+	}
+	.y10t-phone{
+		overflow: hidden;
+		clear: both;
+		height: auto;
+	}
+	.y10t-phone .img-area,.y10t-phone .img-area img{
+		width: 100%;
+		height: auto;
+	}
+	.y10t-phone p{
+		width: 300px;
+		height: 29px;
+		background: #7f7f7f;
+		font-size: 14px;
+		line-height: 29px;
+		text-align: center;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.y10t-phone p a{
+		color: #fff;
+	}
+	.y10tt,.y10y,.y10t{
+		width: 100%;
+	}
+	.y10tt .top-area2 h3{
+		margin-top: 5px;
+		width: 90%;
+	}
+	.y10y{
+		float: none;
+	}
+	.y10t-phone p,.gz24xs2017 .img-area p{
+		width: auto;
+	}
+	.img-size .txt-area,.w272{
+		width: 100%;
+	}
+	.col-2-img .img-area{
+		width: 100%;
+		height: auto;
+	}
+	.col-2-img .news-list{
+		margin-top: 20px;
+	}
+	.gz24xs2017{
+		float: none;
+	}
+	.col .hd h2{
+		width: 88px;
+	}
+	.gz24xs2017 img,.gz24xs2017 .img-area{
+		width: 100%;height: auto;
+	}
+	.y10y .hd h2 a{
+		background: none;
+	}
+
+	.gg2017{
+		background: none;
+		width: 100%;
+	}
+	.gg2017 .header-w1000, .gg2017 .dayoo-nav{
+		width: 100%;
+		padding: 0;
+	}
+	.gg2017 .gg2017-phone{
+		display: block;
+		width: 100%;
+	}
+	.col .hd h2{
+		width: 86px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.jptj .img-box{
+		display: -webkit-box;
+		display: -moz-box;
+		display: box;
+	}
+	.jptj .img-box .img-area {
+		float: none;
+		width: 115px;
+		height: 65px;
+		border-radius: 2px;
+		margin-right: 15px;
+	}
+	.jptj .img-box .txt-area{
+		float: none;
+		-webkit-box-flex: 1;
+		-moz-box-flex: 1;
+		box-flex: 1;
+		margin-top: 10px;
+	}
+	.jptj .img-box .img-area, .jptj .img-box .img-area img{
+		float: none;
+	}
+	.jptj .img-box .img-area img{
+		width: 100%;
+		height: auto;
+	}
+	.s9d .top-n-tit-phone img{
+		width: 100%;
+		margin: 0 auto;
+		display: none;
+	}
+	.s9d .top-n-tit .h2-a{
+		display: none;
+	}
+	.s9d .top-n-tit-phone,.s9d .top-n-tit-phone img{
+		display: block;
+	}
+	.s9d .h2-a-phone{
+		display: block;
+	}
+	.s9d .top-tit .h2-a{
+		display: block;
+	}
+	.s9d .top-tit .h2-a-phone,.top-tit .h2-a-phone img,.s9d .s9dbox .sjd2017-phone,.s9d .dayoo-nav{
+		width: 100%;
+		height: auto;
+	}
+	.s9d .s9dbox{
+		display: block;
+		height: auto;
+	}
+	.s9d .top-n-tit{
+		display: block;
+	}
+	.s9d .top-n-tit p{
+		display: block;
+		font-size: 32px;
+	}
+	.s9d .sjd-img-change, .s9d .sjd-img-change img{
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+	.s9d .sjd-news-list{
+		float: none;
+		width: 100%;
+	}
+	.s9d .sjd-img-change p{
+		text-align: center;
+	}
+	.s9d .sjd-news-list li p,.s9d .sjd-news-list li{
+		height: auto;
+		max-height: inherit;
+	}
+	.s9d .top-n-tit{
+		width: 100%;
+	}
+	.s9d .top-n-tit-phone{
+		display: block;
+	}
+	.s9d .top-n-tit-pc{
+		display: block;
+	}
+	.row-cover{
+		display: block;
+	}
+	.s9d .top-n-tit-pc-img{
+		display: none;
+	}
+
+	.operation-column{
+		width: 100%;
+		float: none;
+	}
+	.operation-column-left{
+		width: 100%;
+		height: auto;
+	}
+	.phone-footer{
+		display: none!important;
+	}
+}
+
+@media screen and (max-width:414px){
+	.news-img-change .img-area span{
+		display: none;
+	}
+	.news-img-change .slick-arrow{
+		background-image: url('http://moban.dayoo.com/templateRes/201710/17/50752/images/arrows-m.png');
+		width: 15px;
+		height: 25px;
+	}
+	.news-img-change .slick-arrow.slick-prev{
+		background-position: 0 0px;
+	}
+	.news-img-change .slick-arrow.slick-next{
+		background-position: -15px 0px;
+	}
+	.news-img-change .slick-arrow{
+		margin-top: -13px;
+	}
+	.news-img-change .img-area p{
+		font-size: 12px;
+	}
+	.gov-layout .gov-btn li{
+		margin-left: 26px;
+	}
+
+}
+
+@media screen and (max-width:320px){
+	.news-img-change .img-area p{
+		display: none;
+	}
+	.gov-layout .gov-btn li{
+		margin-left: 16px;
+	}
+	.gov-layout .bdd li{
+		width: 66px;
+	}
+
+}
+
+.ad-area-wrap{
+	position: relative
+}
+
